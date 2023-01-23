@@ -1,0 +1,178 @@
+* {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+/* Menu */
+
+header {
+    height:100px;
+}
+
+header .menu {
+    display: inline-block;
+    list-style:none;
+    padding:20px;
+    height:50px;
+}
+
+header .menu li {
+    float: left;
+    padding:20px;
+}
+
+header .menu li a{
+    text-decoration: none;
+    color: black;
+    font-size:15px;
+}
+
+header .menu li a:hover {
+    color:rgb(66, 110, 0);
+    font-weight:bold;
+}
+
+/* Formulario Login */
+
+#FormularioInicioSesion {
+    margin-top:50px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 5px;
+    width:25%;
+    text-align:center;
+    font-size:15px;
+    padding:60px;
+    background-color: mediumturquoise;
+}
+
+#FormularioInicioSesion h3 {
+    margin-bottom:10px;
+}
+
+#FormularioInicioSesion input {
+    padding:10px;
+    margin:10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#FormularioInicioSesion input:last-child {
+    width:50%;
+    margin: 3% auto;
+    background-color: brown;
+    color:white;
+}
+
+/* Formulario Creacion Usuarios */
+
+#FormularioCreacion {
+    margin-top:50px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 5px;
+    width:25%;
+    text-align:center;
+    font-size:15px;
+    padding:60px;
+    background-color: rgb(74, 2, 85);
+}
+
+#FormularioCreacion h3 {
+    margin-bottom:10px;
+    color:white;
+}
+
+#FormularioCreacion input {
+    padding:10px;
+    margin:10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#FormularioCreacion input:last-child {
+    width:50%;
+    margin: 3% auto;
+    background-color: rgb(200, 0, 255);
+    color:rgb(255, 255, 255);
+}
+
+/* Parte de la aplicacion de gestion de usuarios */
+
+.tituloAplicacion {
+    margin-bottom:25px;
+    text-align: center;
+}
+
+.aplicacion {
+    width:90%;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.aplicacion tr:first-child {
+    background-color: rgb(94, 35, 94);
+    color: white;
+    font-size:20px;
+}
+
+.aplicacion tr:first-child td:nth-child(8), .aplicacion tr:first-child td:nth-child(9)  {
+    background-color: rgb(0, 75, 109);
+    color: white;
+    font-size:20px;
+}
+
+.aplicacion tr td {
+    padding:15px;
+    border: 1px solid black;
+}
+
+/* Formulario de modificacion de Usuario */
+
+#FormularioModificacion {
+    margin-top:50px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 5px;
+    width:25%;
+    text-align:center;
+    font-size:15px;
+    padding:60px;
+    background-color: rgb(74, 2, 85);
+}
+
+#FormularioModificacion h3 {
+    margin-bottom:10px;
+    color:white;
+}
+
+#FormularioModificacion input {
+    padding:10px;
+    margin:10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#FormularioModificacion input:last-child {
+    width:50%;
+    margin: 3% auto;
+    background-color: rgb(200, 0, 255);
+    color:rgb(255, 255, 255);
+}
+
+/* Usuario Iniciado */
+
+#UsuarioIniciado {
+    position: relative;
+    top:40%;
+    right:5%;
+    float: right;
+}
